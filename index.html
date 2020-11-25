@@ -17,14 +17,13 @@
     <title>AstroloMatch</title>
   </head>
   <body data-spy="scroll" data-target="#main-nav" id="home">
-    <!-- start with the navigation. -->
-    <!-- START HERE -->
+  
 
     <nav
       class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"
       id="main-nav"
     >
-      <!-- to move all the content to the middle -->
+    
       <div class="container">
         <!-- branding area -->
         <a href="index.html" class="navbar-brand">
@@ -60,13 +59,14 @@
     <!-- home section -->
     <header id="home-section">
       <div class="dark-overlay">
-        <!-- home inner is all the content, and put all content in container -->
+     
         <div class="home-inner container">
           <div class="row">
-            <!-- this will make it display on large screens -->
+            
             <div class="col-lg-8 d-none d-lg-block">
               <h1 class="display-4">
-                Let the <strong>Universe</strong> guide you to
+                Let the <strong class="uni">Universe</strong> <br>
+                guide you to
                 <strong>Love</strong>
               </h1>
               <div class="d-flex">
@@ -395,11 +395,10 @@
       
 
 
-      // get the current year for the copywrite
       $('#year').text(new Date().getFullYear());
-      // use a span with the id of year and it will show up.
+    
 
-      // the smooth scroll, scrollspy. first, add data-spy="scroll" to the body tag, 2nd data-target="#main-nav", add id="home", add id="main-nav" on the nav tag.
+  
 
       // init scrollspy
       $('body').scrollspy({ target: '#main-nav' });
